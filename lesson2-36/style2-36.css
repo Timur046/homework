@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 25px;
+}
+
+.box-big {
+    background-color: rgb(240, 220, 220);
+    border-top-left-radius: 15px;
+    border-radius: 15px 0px 0px 15px;
+    height: 650px;
+    overflow: auto;
+}
+
+.box-little {
+    display: inline-block;
+    text-align: left;
+    border-radius: 10px;
+    background-color: rgb(229, 196, 135);
+    height: 250px;
+    width: 340px;
+    margin: 10px 5px 10px 5px;
+    padding: 20px 15px 15px 25px;
+    box-shadow: inset 0px 1px 8px 3px #223c5033;
+}
